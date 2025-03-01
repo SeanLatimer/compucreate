@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.silentsean.compucreate.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "ElevatorColumnMixin",
+    "ElevatorContactBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
